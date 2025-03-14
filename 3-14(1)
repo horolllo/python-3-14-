@@ -1,0 +1,7 @@
+print("%d은 정수이다"%7)
+number = 58000000
+print("%d은 정수이다"%number)
+g = 1
+c = 9
+n = 28
+print("나는 %d학년 %d반 %d번 이다." %(g,c,n))
