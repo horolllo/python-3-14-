@@ -1,0 +1,6 @@
+import random as rd
+import turtle as tt
+
+r = rd.random()
+print("%.2lf" %(r+1))
+
