@@ -1,0 +1,16 @@
+import random as rd
+import turtle as tt
+
+t = tt.Turtle()
+t.shape('turtle')
+
+
+for i in range(100):
+
+    x = rd.randint(0, 300)
+    y = rd.randint(0, 300)
+
+    t.goto(x, y)
+
+
+tt.done()
