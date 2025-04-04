@@ -1,0 +1,5 @@
+a = 'Python'
+b = 'is funny'
+
+print(a + b)
+print(a * 2)
