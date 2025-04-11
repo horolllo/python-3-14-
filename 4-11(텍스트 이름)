@@ -1,0 +1,5 @@
+import turtle
+t = turtle.Turtle()
+s = turtle.textinput('즐거운 씨큐브코딩', '이름내놔')
+t.write("%s님 안 번갑ㅋ" %s)
+turtle.done()
