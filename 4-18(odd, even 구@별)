@@ -1,0 +1,10 @@
+j = int(input("정수 내놔: "))
+if (j%2==0):
+    if (j != 0):
+        print("EVEN")
+
+    else:
+        print("그걸 왜 쓰냐;;")
+
+elif (j%2==1):
+    print("ODD")
