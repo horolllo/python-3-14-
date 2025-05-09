@@ -1,0 +1,11 @@
+n = int(input())
+
+Sum = 0
+i = 1
+
+while True:
+    Sum = Sum + i
+    i += 1
+    if(i > n):
+        break
+print(Sum)
