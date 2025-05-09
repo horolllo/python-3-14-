@@ -1,0 +1,11 @@
+ans = 0
+n = int(input("정수 입력: "))
+
+while True:
+    ans = ans + n % 10
+    
+    n = n // 10
+    if n == 0:
+        break
+    ans *= 10
+print("뒤집은 수: %d" %ans)
