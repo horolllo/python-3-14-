@@ -1,0 +1,6 @@
+ans = " "
+while True:
+    ans = input("Are you ready?")
+    if ans == "Yes":
+        print("going out")
+        break
