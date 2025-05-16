@@ -1,0 +1,8 @@
+a = 0
+b = 0
+for i in range(5):
+    a = int(input())
+    b += a
+
+print("sum: %d\n"%b)
+print("avg: %f" %(b/5))
