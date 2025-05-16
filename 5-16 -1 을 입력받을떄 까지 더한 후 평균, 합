@@ -1,0 +1,13 @@
+a = 0
+b = 0
+n = 1
+while True:
+    a = int(input())
+
+    if a == -1:
+        break
+    b += a
+    n += 1
+    
+print("sum: %d" %b)
+print("avg: %.lf" %(b/n))
