@@ -1,0 +1,10 @@
+list = []
+while True:
+    a = int(input())
+
+    if a == -1:
+        break
+    list.append(a)
+    
+print("sum: %d" %sum(list))
+print("avg: %.lf" %(sum(list)/len(list)))
