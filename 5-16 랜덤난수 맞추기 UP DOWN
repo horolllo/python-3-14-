@@ -1,0 +1,17 @@
+import random
+n = random.randint(1, 100)
+
+
+
+while True:
+    a = int(input())
+    
+    if (n == a):
+        print("Correct!")
+        break
+
+    elif (n > a):
+        print("Up")
+
+    else:
+        print("Down")
