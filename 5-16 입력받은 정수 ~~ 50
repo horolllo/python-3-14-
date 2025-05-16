@@ -1,0 +1,14 @@
+a = int(input("정수 내@놔: "))
+
+
+
+if a < 50:
+    for i in range(a, 51):
+        print(i, end = ' ')
+
+elif a > 50:
+    for i in range(a, 49, -1):
+        print(i, end = ' ')
+
+else:
+    print("50")
