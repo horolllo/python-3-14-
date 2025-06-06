@@ -1,0 +1,27 @@
+def get_max(n):
+    high_score = 0
+    for i in range(n):
+        x = int(input())
+
+        if(x > high_score):
+            high_score = x
+
+    return high_score
+
+##########################
+
+
+def get_max2(n):
+    score_list = []
+    for i in range(n):
+        x = int(input())
+        score_list.append(x)
+
+    return max(score_list)
+
+####################################
+
+n = int(input())
+
+result = get_max2(n)
+print(result)
