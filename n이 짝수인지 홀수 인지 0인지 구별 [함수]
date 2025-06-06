@@ -1,0 +1,12 @@
+def number(n):
+    if n % 2 == 0 and n != 0:
+        return "even"
+    elif n % 2 == 1:
+        return "odd"
+    elif n == 0:
+        return "zero"
+
+n = int(input())
+
+result = number(n)
+print(result)
