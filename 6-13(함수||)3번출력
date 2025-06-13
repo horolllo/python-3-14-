@@ -1,0 +1,5 @@
+def warning():
+    for i in range(3):
+        print("Fire in the Hole~")
+
+warning()
