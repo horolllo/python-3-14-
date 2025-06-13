@@ -1,0 +1,14 @@
+def say(name):
+    print("Walcome,", name)
+    return
+say("minsu")
+
+m = 0
+d = 0
+def day(m, d):
+    print("Today is %s / %s" %(m, d))
+
+
+m = int(input())
+d = int(input())
+day(m, d)
