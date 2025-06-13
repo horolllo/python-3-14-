@@ -1,0 +1,13 @@
+def season(s):
+    if 3 <= s <= 5:
+        print("spring")
+    elif 6 <= s <= 8:
+        print("summer")
+    elif 9 <= s <= 11:
+        print("fall")
+    elif s == 1 or s == 2 or s == 12:
+        print("winter")
+    else:
+        print("Error")
+s = int(input())
+season(s)
