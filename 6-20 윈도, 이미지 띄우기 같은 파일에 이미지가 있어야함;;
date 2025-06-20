@@ -1,0 +1,9 @@
+from tkinter import*
+from PIL import ImageTk
+win = Tk()
+
+img = ImageTk.PhotoImage(file = 'qt.jpg')
+
+lbl = Label(win, image = img)
+lbl.pack()
+win.mainloop()
