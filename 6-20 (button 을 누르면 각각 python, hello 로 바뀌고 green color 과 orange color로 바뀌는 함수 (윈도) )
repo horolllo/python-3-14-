@@ -1,0 +1,19 @@
+from tkinter import*
+from PIL import ImageTk
+win = Tk()
+
+def click():
+    if btn['text'] == "hello":
+        btn['text'] = "python"
+        btn['bg'] = "green"
+    else:
+        btn['text'] = "hello"
+        btn['bg'] = "orange"
+
+btn = Button(win, text = "hello", fg = "white", bg = "orange", command = click)
+blb = Button(win, text = "button", fg = "black", bg = "white", command = click)
+
+btn.pack()
+blb.pack()
+
+win.mainloop()
