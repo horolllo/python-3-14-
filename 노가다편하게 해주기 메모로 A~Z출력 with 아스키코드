@@ -1,0 +1,7 @@
+f = open("alphabet.txt", "w")
+
+for i in range(65, 91):
+    f.write(chr(i))
+
+
+f.close()
