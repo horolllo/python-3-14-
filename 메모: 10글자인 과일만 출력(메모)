@@ -1,0 +1,8 @@
+f = open("fruit.txt", "r")
+fruits = f.readlines()
+
+for word in fruits:
+    word = word.strip()
+    if len(word) >= 10:
+        print(word.strip())
+f.close()
