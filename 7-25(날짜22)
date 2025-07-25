@@ -1,0 +1,6 @@
+from datetime import datetime
+
+now = datetime.now()
+time = now.strftime('%p %I시 %M분')
+time_kor = time.replace('AM', '오전').replace('PM', '오후')
+print(time_kor)
